@@ -73,7 +73,7 @@ If you're looking for more specific topics, we have a [Zero to Hero Guide](#next
    Open a new terminal and install `llama-stack`:
    ```bash
    conda activate ollama
-   pip install llama-stack==0.0.61
+   pip install llama-stack==0.0.63
    ```
 
 ---
@@ -200,7 +200,7 @@ In `test_llama_stack.py`, write the following code:
 
 ```python
 import os
-from llama_stack_client import LlamaStackClien
+from llama_stack_client import LlamaStackClient
 
 # Get the model ID from the environment variable
 INFERENCE_MODEL = os.environ.get("INFERENCE_MODEL")
